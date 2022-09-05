@@ -1,0 +1,25 @@
+/* variables */
+:root{
+    --gray:#e3e2df;  
+    --blue:#4056a1;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Josefin+Sans&family=Reggae+One&display=swap');
+ body{
+    background-color: #e3e2df;
+    font-family: 'Cairo', sans-serif;
+ }
+
+ div{
+    width: 70%;
+    height: 6em;
+    margin: auto;
+    margin-top: 5em;
+    color: #e3e2df;
+    padding: 4em;
+    background-color: #4056a1;
+ }
+
+ .div a{
+    
+    color: #e3e2df;
+ }
