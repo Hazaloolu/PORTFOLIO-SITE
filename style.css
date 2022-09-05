@@ -17,7 +17,7 @@
 }
 
 body{
-    font-family: ;
+    
     
   
 }
@@ -27,12 +27,16 @@ body{
     width: 100%;
     margin: auto;
     display: flex;
+    height: 100vh;
+    top: 0;
+    
 }
 /* first-box in the general container styling */
 .container-box-1{
     flex-basis: 65%;
-    height: 100vh;
+    
     padding: 0 5em;
+    padding-bottom: 3em;
     background-color:var(--gray);
    
 }
@@ -72,6 +76,7 @@ body{
 .logo-span{
     display: none;
 }
+
 
 .menu-bar-icon{
   position: absolute;
@@ -145,7 +150,7 @@ body{
 }
 
 .text-box p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Cairo', sans-serif;
     width: 80%;
     padding-top: .5em;
@@ -254,7 +259,6 @@ body{
 }
 
 section{
-    height: 100vh;
     background-color: var(--blue);
     padding:5em 4em ;
     font-family: 'Josefin sans', sans-serif;
@@ -275,6 +279,7 @@ section{
 .first-sec-dv p{
     width: 90%;
     margin-top: 2em;
+    font-size: 18px;
 }
 
 
@@ -295,7 +300,7 @@ section{
     color:#e85a4f;
     text-align: center;
     font-size: 30px;
-
+   
 }
 .myk-con{
     display: flex;
@@ -312,15 +317,16 @@ section{
    
 }
 .myk-con p{
-    width: 80%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
+   
     
 }
 
 .box{
     line-height: 2em;
    padding: 2em;
-    
+    width: 100%;
     border-right: 10px solid var(--blue);
 }
 
@@ -519,9 +525,21 @@ footer span{
     font-size: 18px;
    }
 
+   
    .contact-div{
-    display: none;
-   }
+    width: 100%;
+    
+    }
+    .contact-div a{
+     padding:1em 2em;
+     font-size: 16px;
+     width: 100%;
+     margin: auto;
+     margin: 0;
+     /* display: flex;
+     justify-content: center; */
+ 
+    }
 
    .borders{
     border: none;
@@ -554,6 +572,7 @@ footer span{
 
 .first-sec-dv p{
     margin-top: 1em;
+    font-size: 16px;
 }
 
 #second-prt-dv{
@@ -583,6 +602,7 @@ footer span{
 .contact-section p {
     font-size: 16px;
 }
+
 
 form{
     width: 90%;
