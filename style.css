@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
     
 }
 
@@ -91,8 +92,8 @@ body{
 }
 
 /* navbar styling */
-.navbar{
-          
+.navbar{  
+    
     z-index:-1;
     position: absolute;
    padding: 4em;
@@ -108,7 +109,7 @@ body{
 
 .navbar ul{
     list-style-type:circle;
-    cursor: pointer;
+ 
     
 }
 ::marker{
@@ -122,9 +123,13 @@ body{
     font-family: 'Cairo', sans-serif;
     font-size: 20px;
     border-bottom: 2px solid black;
-    line-height: 4em;
+    line-height: 5em;
     cursor: pointer;
 }
+.navbar ul li a:hover{
+    color: var(--blue);
+}
+
 .mobile-menu{
     clip-path: circle(200% at 100% 100%)
 }
@@ -319,7 +324,7 @@ section{
 .myk-con p{
     width: 100%;
     text-align: center;
-   
+    margin-bottom: 3em;
     
 }
 
